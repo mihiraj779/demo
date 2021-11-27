@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="scoreboard">
+      <div id="Player-1" class="player">User</div>
+      <div id="Player-2" class="player">Robot</div>
+      <span id="Player 1 score">0</span> : <span id="Player 2 score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Paper covers Rocks, You win!!</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="rock.png" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="paper.png" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="scissors.png" />
+      </div>
+    </div>
+
+    <p id="action">Make your move.</p>
+    <div class="center">
+      <button onclick="reset()" class="button reset">Reset Game</button>
+    </div>
+
+    <div class="rules">
+        <h2>The Basic Rules:</h2>
+        <p>Rock beats scissor.</p>
+        <p>Paper beats rock.</p>
+        <p>Scissor beat paper.</p>   
+    </div>
+    <script src="script.js" charset="UTF-8" ></script>
+  </body>
+</html>
